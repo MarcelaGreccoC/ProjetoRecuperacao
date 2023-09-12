@@ -1,0 +1,271 @@
+.body{
+    margin: 0%;
+    background-color: black;
+}
+/* começo navbar */
+.navBar{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-around;
+    border-bottom: 3px solid white;
+
+    height: 40px;
+    width: 100%;
+}
+
+.navBar .conteudo{
+    display: flex;
+    align-items: center;
+
+}
+.navBar .conteudoTitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 30%;
+}
+
+.navBar .conteudoTitulo #tituloNavBar{
+    font-size: 36px;
+    text-align: center;
+    margin-left: 25%;
+
+    color: white;
+}
+
+.navBar .conteudo span{
+    font-size: large;
+    
+}
+
+.navBar .conteudo a{
+    text-decoration: none;
+    color: white;
+}
+
+/* final navbar */
+/* começo Albuns */
+
+.boxTituloAlbuns{
+    display: flex;
+    justify-content: center;
+
+    height: 50px;
+    width: 100%;
+
+    margin-top: 2%;
+}
+
+.boxTituloAlbuns .tituloAlbuns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    width: 20%;
+}
+
+.boxTituloAlbuns .tituloAlbuns span{
+    font-size: 26px;
+    text-align: center;
+    text-decoration: underline;
+
+    color: white;
+}
+
+
+.boxAlbuns{
+    display: flex;
+    flex-direction: column;
+    /* background-color: bisque; */
+    height: 550px;
+    width: 100%;
+
+    margin-top: 5%;
+}
+
+
+.linhaAlbuns{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+    height: 300px;
+    width: 100%;
+}
+
+
+.albuns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    height: 200px;
+    width: 15%;
+
+}
+
+.albuns span{
+    text-decoration: underline;
+
+    color: white;
+
+}
+
+.imgAlbuns{
+    display: flex;
+    height: 300px;
+    width: 100%;
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.imgAlbuns img{
+    width: 100%;
+}
+/* fim Albuns */
+/* começo botao ver grafico */
+.boxBotaoVerGrafico{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 30px;
+    width: 100%;
+}
+
+/* estilizar o botao comando a baixo */
+.botao{
+
+}
+/* final botao ver grafico */
+
+
+/* Começo Dash */
+
+.boxDash{
+    display: flex;
+    justify-content: center;
+
+    height: 300px;
+    width: 100%;
+
+    margin-top: 2%;
+}
+
+.dash{
+    display: flex;
+    justify-content: center;
+
+    height: auto;
+    background-color: white;
+    border-radius: 1rem;
+    width: 60%;
+}
+
+.dash canvas {
+    width: 100%;
+    height: 100%;
+}
+
+/* fim Dash */
+
+/* começo do sorteio de albuns */
+.boxTituloSoreteio{
+    display: flex;
+    justify-content: center;
+
+    height: 30px;
+    width: 100%;
+    
+    margin-top: 2%;
+}
+
+.tituloSorteio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.tituloSorteio span{
+    font-size: 32px;
+    text-decoration: underline;
+
+    color: white;
+}
+
+.boxInputSorteio{
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+
+    margin-top: 1%;
+}
+
+.inputSorteio{
+    border: none;
+    border-bottom: 2px solid white;
+    border-radius: 1rem;
+
+    width: 14%;
+}
+
+.boxBotaoSorteio{
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+
+    margin-top: 1%;
+}
+
+.boxboxSorteio{
+    display: flex;
+    justify-content: center;
+
+    height: 500px;
+    width: 100%;
+
+    margin-top: 2%;
+}
+
+.boxSorteio{
+    display: flex;
+    flex-direction: column;
+
+    background-color: aqua;
+    height: auto;
+    width: 80%;
+}
+
+.imgSorteio{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    width: 20%;
+    background-color: aquamarine;
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: red;
+    
+}
+
+.fraseSorteio{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    height: 30px;
+    width: 20%;
+    background-color: violet;
+}
