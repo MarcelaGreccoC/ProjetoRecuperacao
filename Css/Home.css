@@ -22,22 +22,20 @@ body {
 }
 
 .logo {  
-    display: flex;
-    align-items: center;
     background-image: url('../img/LOGOSITE.png');
     background-size: cover;
     width: 150px;
     height: 90px; 
+   
 } 
 
 .navBar {
     width: 400px;
-    padding: 0;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
     color: rgb(255, 255, 255);
+    
 }
 
 a{
